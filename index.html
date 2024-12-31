@@ -2,175 +2,111 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lagartrading | Sistema automatizado de trading</title>
-    <script src="https://kit.fontawesome.com/cbbd236219.js" crossorigin="anonymous"></script>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7e790896c9.js" crossorigin="anonymous"></script>
+    <title>Talento | Qubitrade-EL mejor trdebot de criptomonedas</title>
 </head>
 <body>
-    <header class="header">
+    <header class="menuHorizontal">
         <a href="#">
-            <img class="logo" src="./assets/img/logo.png" alt="Logo">
+            <img src="./assets/img/logo_color.jpeg" alt="Logo de mi bot" class="logo">  
         </a>
-        <nav class="navHeader">
-            <ul class="ulHeader">
-                <li class="listaItem"><a class="linkHeader" href="#">Inicio</a></li>
-                <li class="listaItem"><a class="linkHeader" href="./pages/productos.html">Exchanges</a></li>
-                <li class="listaItem"><a class="linkHeader" href="./pages/contacto.html">Contacto</a></li>
-                <li class="listaItem"><a class="linkHeader" href="#nosotros">Nosotros</a></li>
-                <li class="listaItem"><a class="linkHeader" href="./pages/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <nav>            
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./pages/estrategias.html">Estrategias</a></li>
+                <li><a href="./pages/carrito.html">Carrito</a></li>
+                <li><a href="./pages/contactanos.html">Contacto</a></li>
             </ul>
         </nav>
+    
     </header>
+
     <main>
-        <!--imagenes de fondos-->
-       <section class="principalIndex">
-           <h1>"Smart Trading:  Simplifica tu Trading de Criptomonedas" </h1>
-           <div class="">
-               
-            </div>
-        </section>
-      
-        <!--cartas de productos o criptosmonedas-->
-        <section class="productosDestacados">
-            <h2>Criptomonedas mas comercializadas</h2>
-            <div class="galeriaDestacados">
-                <div class="tarjetaDestacados">
-                    <img src="./assets/img/bitcoin-btc-logo.png" alt="producto">
-                    <h3>Bitcoin</h3>
-                    <h4>$00.00</h4>
-                    <a href=""></a>
-                </div>
-                <div class="tarjetaDestacados">
-                    <img src="./assets/img/cardano-ada-logo.png" alt="producto">
-                    <h3>Cardano</h3>
-                    <h4>$00.00</h4>
-                    <a href=""></a>
-                </div>
-                <div class="tarjetaDestacados">
-                    <img src="./assets/img/xrp-xrp-logo.png" alt="producto">
-                    <h3>Ripple</h3>
-                    <h4>$00.00</h4>
-                    <a href=""></a>
-                </div>
-                <div class="tarjetaDestacados">
-                    <img src="./assets/img/ethereum-eth-logo.png" alt="producto">
-                    <h3>Ethereum</h3>
-                    <h4>$00.00</h4>
-                    <a href=""></a>
-                </div>
-            </div>
-           
-
-        </section>
-        <section class="marcasQueSeVenden">
-            <h2>Exchanges Compatibles</h2>
-            <a class="boton" href="./pages/productos.html">ELIGE TU EXCHANGE</a>
-            <div class="galeriaMarcas">
-                <div class="tarjetaMarcas">
-                    <a href="./pages/productos.html">
-                        <img src="./assets/img/binance.png" alt="Binance">
-                    </a>
-                </div>
-                <div class="tarjetaMarcas">
-                    <a href="./pages/productos.html">
-                        <img src="./assets/img/bitfinex.png" alt="Bitfinex">
-                    </a>
-                </div> 
-                <div class="tarjetaMarcas">
-                    <a href="./pages/productos.html">
-                        <img src="./assets/img/bittrex.png" alt="Bittrex">
-                    </a>
-                </div>
-                <div class="tarjetaMarcas">
-                    <a href="./pages/productos.html">
-                        <img src="./assets/img/kraken.png" alt="Kraken">
-                    </a>
-                </div>                   
-            </div>
-          
-        </section>
-        <hr>
-        <section id="nosotros" class="nosotros">
-            <h2>Cómo Funciona</h2>
-            <div class="contenedorNosotros">
-               <div class="uno">
-
-               </div>
-               
-               <div class="dos">
-                <h3>
-                    Elija una estrategia
-                </h3>
-                <p>Encuentra la estrategia perfecta que coinja con tu propio estilo de trading de nuestra base de datos de estrategia premium. Puede personalizar completamente ajustando ajustes verrios. Tú mantene el control.</p>
-               </div>
-               <div>
-                    <h3>
-                        Actuaciones de prueba
-                    </h3>
-                    <p>
-                        Usando nuestro motor de respaldo rápido puede probar rápidamente diferentes configuraciones e intercambios directamente desde su navegador.    
-                    </p>
-               </div>
-               <div>
-                    <h3>
-                        Comience a operar 24/7
-                    </h3>
-                    <p>
-                        Cuando estés seguro con tu configuración puedes empezar a operar en vivo con solo pulsar un botón. Después de eso tendrás ideas en tiempo real en tu estrategia.
-                    </p>
-               </div>
-            </div>
-          
-           
-        </section>
+        <h1>Qubitrade el smartbot que te asiste en el trade</h1>        
+            <p>
+                ¿Imaginas operar en los mercados financieros con la precisión de un qubit? Nuestro bot de trading, 
+                impulsado por nuestra tecnologia, te brinda una ventaja competitiva al analizar millones de datos 
+                en fracciones de segundo. ¡Descubre cómo la tecnología del futuro está transformando el presente del trading!
+            </p>
+        <h2>Bienvenido a la mejor herramienta para invertir en criptomonedas</h2>
+            
+            <p>
+                ¿Cansado de perder oportunidades en el mercado? Nuestro bot de trading te permite automatizar tus operaciones y 
+                tomar decisiones basadas en datos sólidos. Relájate mientras tu bot trabaja por ti, maximizando tus ganancias y 
+                minimizando los riesgos. ¡La inversión inteligente es ahora más accesible que nunca!
+            </p>
         
+        <h3>Que tus sentimientos no te jueguen una mala jugada</h3>
+
+            <p>
+                ¿Te atreves a desafiar las leyes de la probabilidad? Nuestro bot de trading, inspirado en la I.A, 
+                te ofrece una nueva perspectiva del mercado financiero. ¡Atrévete a explorar un mundo de posibilidades infinitas 
+                y descubre el poder de la computación aplicada al trading!
+            </p>
+
+        <h3>¿Listo para revolucionar tu forma de invertir?</h3>
+
+            <p>                
+                ¿Inviertes en criptomonedas? Nuestro bot de trading cuántico te ayudará a navegar por la volatilidad del mercado 
+                de las criptomonedas. ¡Descubre cómo aprovechar las oportunidades que otros se pierden y maximiza tus ganancias en 
+                el mundo de las criptomonedas!
+            </p>
+
+        <h3>"Domina los mercados con inteligencia artificial</h3>
+
+            <p>
+                Nuestro bot de trading de última generación te permite operar en las principales plataformas de criptomonedas, 
+                como Binance y BingX, de forma totalmente automatizada.
+            </p>
+
+        <h3>¿Por qué elegir nuestro bot?</h3>
+
+            <p>Precisión cuántica: Algoritmos avanzados inspirados en la mecánica cuántica para tomar decisiones de inversión óptimas.</p>
+            <p>Automatización total: Libera tu tiempo y opera las 24 horas del día, los 7 días de la semana.</p>
+            <p>Personalización: Adapta el bot a tu estilo de inversión y tolerancia al riesgo.</p>
+            <p>Seguridad: Protege tus activos con las más altas medidas de seguridad.</p>
+
+        <h3>¡Únete a la revolución del trading y maximiza tus ganancias!</h3>
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="./assets/video/video_fondo.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </div>      
     </main>
-    <footer class="footer">
-        <a href="#">
-            <img class="logo" src="./assets/img/logo.png" alt="Logo">
-        </a>
-       
-        <nav>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Productos</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li><a href="">Sobre Nosotros</a></li>
-                <li><a href="">Política de Privacidad</a></li>
-                <li><a href="">Términos y Condiciones</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li><img src="./assets/img/facebook.png" alt="facebook"></li>
-                <li><img src="./assets/img/gorjeo.png" alt="X"></li>
-                <li><img src="./assets/img/instagram.png" alt="instagram"></li>
-                <li><img src="./assets/img/whatsapp.png" alt="whatsapp"></li>
-            </ul>
-        </nav>
+<hr>
+    <footer>
         <div>
-            <form action="">
-                <input type="email" placeholder="Tu correo electrónico" id="emailSus" name="emailSus">
-                <input type="submit" value="Suscribirse">
-            </form>
+            <a href="#">
+                <img src="./assets/img/logo_color.jpeg" alt="Logo de mi bot" class="logo">  
+            </a>
         </div>
-        <!--datos de contacto-->
-        <address>
-            <p>Dirección: Calle Falsa 123, Palermo, Ciudad de Buenos Aires</p>
-            <p>Teléfono: (55) 555-5555</p>
-            <p>Correo electrónico:  contacto@petshop.com</p>
-        </address>
-       
+        <div>
+            <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div> 
+        <div>
+            <li>
+                <a href="https://www.binance.com/" target="_blank"> Ir a Binance <i class="fab fa-bitcoin"></i></a>
+            </li>
+            <li>
+                <a href="https://bingx.com/" target="_blank"> Ir a BingX <i class="fab fa-bitcoin"></i></a>
+            </li>
+        </div>        
+        <div class="fut">
+            <p>&copy; 2024 MiEmpresa, Inc. Todos los derechos reservados.</p>
+            <p>Dirección: Calle Ficticia 123, Piso 4, Colonia Inventada, Ciudad Ejemplo, CP 12345, País</p>
+            <p>Teléfono: +1 (555) 123-4567 | Email: contacto@miempresa.com</p>
+            <br>
+            <p>&copy; 2023 Todos los derechos reservados.</p>
+        </div>
+        
     </footer>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
