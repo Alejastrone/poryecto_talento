@@ -3,9 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>carrito talento</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7e790896c9.js" crossorigin="anonymous"></script>
+    <title>Carrito | Qubitrade</title>
 </head>
 <body>
-    
+    <header>
+        <a href="../index.html">
+            <img src="../assets/img/logo_color.jpeg" alt="Logo de mi bot" class="logo">
+        </a>
+        
+        <h1>Qubitrade el smartbot que te asiste en el trade</h1>
+        <nav>            
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./estrategias.html">Estrategias</a></li>
+                <li><a href="./carrito.html">Carrito</a></li>
+                <li><a href="./contactanos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 style="text-align: center;">Listado de Productos</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Scalping</td>
+                        <td>$10.50</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Intradia</td>
+                        <td>$15.75</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Swing</td>
+                        <td>$8.20</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>104</td>
+                        <td>Inversionista</td>
+                        <td>$12.40</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="fuenteNegritas">Total:</td>
+                        <td>$25</td>
+                    </tr>
+                </tbody>
+            </table>
+        <h2>
+            Nuestras Estrategias
+        </h2>
+        <div>
+            <img src="../assets/img/scalpin_trading_g.jpg" alt="">
+            <h3>Scalping Trading</h3>
+            <h4>$ 20</h4>
+            <a href="">Agregar a carrito</a>
+        </div>
+        <div>
+            <img src="../assets/img/intra_grafico.jpg" alt="">
+            <h3>Intradia</h3>
+            <h4>$ 20</h4>
+            <a href="">Agregar a carrito</a>
+        </div>
+        <div>
+            <img src="../assets/img/swing_trading_g.jpg" alt="">
+            <h3>Swing Trading</h3>
+            <h4>$ 20</h4>
+            <a href="">Agregar a carrito</a>
+        </div>
+        <div>
+            <img src="../assets/img/pig_holder.jpg" alt="">
+            <h3>Holding Trading</h3>
+            <h4>$ 20</h4>
+            <a href="">Agregar a carrito</a>
+        </div>
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="../assets/video/video_fondo.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </div>
+    </main>
+<hr>
+    <footer>
+        <div>
+            <a href="../index.html">
+                <img src="../assets/img/logo_color.jpeg" alt="Logo de mi bot" class="logo">  
+            </a>
+        </div> 
+        <div> 
+            <button onclick="scrollToTop()">Volver al inicio</button>
+            <script>
+                function scrollToTop() {
+                window.scrollTo(0, 0);
+                }
+            </script>
+        </div>       
+        <div>
+            <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div> 
+        <div>
+            <li>
+                <a href="https://www.binance.com/" target="_blank"> Ir a Binance <i class="fab fa-bitcoin"></i></a>
+            </li>
+            <li>
+                <a href="https://bingx.com/" target="_blank"> Ir a BingX <i class="fab fa-bitcoin"></i></a>
+            </li>
+        </div>        
+        <div class="fut">
+            <p>&copy; 2024 MiEmpresa, Inc. Todos los derechos reservados.</p>
+            <p>Dirección: Calle Ficticia 123, Piso 4, Colonia Inventada, Ciudad Ejemplo, CP 12345, País</p>
+            <p>Teléfono: +1 (555) 123-4567 | Email: contacto@miempresa.com</p>
+            <br>
+            <p>&copy; 2023 Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
